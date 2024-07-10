@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        APP_NAME = 'eventriest-server'
+        APP_NAME = 'email-service'
         RELEASE = '1.0.0'
         DOCKER_USER = 'username'
         DOCKER_PASS = 'password'
